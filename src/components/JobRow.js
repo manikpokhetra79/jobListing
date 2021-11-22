@@ -5,8 +5,12 @@ const JobRow = (props) => {
   const { job } = props;
   return (
     <div className="list-row" key={job._id}>
-      <div className="list-logo">
-        <img src={job.companyLogo} alt="company-logo" />
+      <div className="list-logo lr-elem">
+        <img
+          src={job.companyLogo}
+          alt="company-logo"
+          className="company-logo"
+        />
       </div>
       <div className="lr-elem">
         <p>{job.position}</p>
@@ -21,15 +25,17 @@ const JobRow = (props) => {
         <p className="sub-text">Experience</p>
       </div>
       <div className="lr-elem">
-        <p>
+        <div className="skills">
           {job.requiredSkills.map((skill, index) => (
-            <span key={index}>{skill}</span>
+            <p key={index}>{skill}&nbsp;</p>
           ))}
-        </p>
+        </div>
         <p className="sub-text">Skills</p>
       </div>
       <div className="">
-        <button>Apply</button>
+        <button type="button" class="btn btn-primary">
+          Apply
+        </button>
       </div>
     </div>
   );
