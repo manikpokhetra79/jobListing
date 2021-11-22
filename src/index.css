@@ -14,7 +14,7 @@ code {
 }
 /* navbar */
 .navbar {
-  margin-top: 2rem;
+  margin-top: 1.2rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -42,7 +42,7 @@ code {
 }
 /* app */
 .App {
-  width: 90%;
+  width: 100%;
   margin: auto;
 }
 /* search var */
@@ -95,4 +95,12 @@ code {
   display: flex;
   flex-flow: row wrap;
   line-height: 5px;
+}
+
+/* footer */
+footer {
+  background-color: #2b4f74;
+  width: 100%;
+  color: #fff;
+  font-size: 14px;
 }

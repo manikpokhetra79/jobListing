@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import JobRow from './JobRow';
 
 const Body = (props) => {
-  const [jobs, setJobs] = useState([]);
+  const [jobs, setJobs] = useState([]); //not required
   useEffect(() => {
     setJobs(props.jobs);
     setFilteredJobs(props.jobs);
@@ -86,7 +86,6 @@ const Body = (props) => {
     }
     setSearchText('');
   };
-  // console.log(allJobs, fullTime, partTime, freelancer);
 
   return (
     <div className="list-box">

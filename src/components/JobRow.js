@@ -21,7 +21,7 @@ const JobRow = (props) => {
         <p className="sub-text">Location</p>
       </div>
       <div className="lr-elem">
-        <p>{`${job.experienceRange.min}-${job.experienceRange.max}`}</p>
+        <p>{`${job.experienceRange.min}-${job.experienceRange.max} Years`}</p>
         <p className="sub-text">Experience</p>
       </div>
       <div className="lr-elem">
