@@ -14,7 +14,6 @@ code {
 }
 /* navbar */
 .navbar {
-  margin-top: 1.2rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -40,6 +39,7 @@ code {
   border-bottom: 3px solid blue;
   margin-right: 15px;
 }
+
 /* app */
 .App {
   width: 100%;
@@ -49,6 +49,8 @@ code {
 .search-bar {
   background-color: #fff;
   padding: 1.1rem;
+  position: sticky !important;
+  scroll-behavior: auto;
 }
 /* list box */
 .list-box {

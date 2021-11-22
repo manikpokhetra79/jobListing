@@ -89,7 +89,7 @@ const Body = (props) => {
 
   return (
     <div className="list-box">
-      <div className="search-bar row g-3 d-flex align-items-center">
+      <div className="search-bar row  d-flex align-items-center">
         <div className="col-md-3">
           <input
             type="email"
