@@ -1,4 +1,4 @@
-export default data = [
+export const data = [
   {
     _id: '607595d98ca2e90e21a0dd4b',
     position: 'Full Stack Developer',
