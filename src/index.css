@@ -45,6 +45,11 @@ code {
   width: 90%;
   margin: auto;
 }
+/* search var */
+.search-bar {
+  background-color: #fff;
+  padding: 1.1rem;
+}
 /* list box */
 .list-box {
   display: flex;

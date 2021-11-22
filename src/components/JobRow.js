@@ -1,7 +1,7 @@
 import React from 'react';
 
 const JobRow = (props) => {
-  console.log(props);
+  // console.log(props);
   const { job } = props;
   return (
     <div className="list-row" key={job._id}>
@@ -33,7 +33,7 @@ const JobRow = (props) => {
         <p className="sub-text">Skills</p>
       </div>
       <div className="">
-        <button type="button" class="btn btn-primary">
+        <button type="button" className="btn btn-primary">
           Apply
         </button>
       </div>
