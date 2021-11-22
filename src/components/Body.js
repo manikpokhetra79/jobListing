@@ -88,7 +88,7 @@ const Body = (props) => {
   };
 
   return (
-    <div className="list-box">
+    <>
       <div className="search-bar row  d-flex align-items-center">
         <div className="col-md-3">
           <input
@@ -163,10 +163,12 @@ const Body = (props) => {
           </button>
         </div>
       </div>
-      {filteredJobs.map((job, index) => (
-        <JobRow job={job} />
-      ))}
-    </div>
+      <div className="list-box">
+        {filteredJobs.map((job, index) => (
+          <JobRow job={job} />
+        ))}
+      </div>
+    </>
   );
 };
 

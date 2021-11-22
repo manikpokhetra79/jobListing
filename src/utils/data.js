@@ -182,7 +182,7 @@ export const data = [
       'https://s3.ap-south-1.amazonaws.com/merchantlogo.closecheckout.com/TWW/TWW+Logo+JPG+1.jpg',
     companyName: 'CoolBook',
     location: 'Bangalore',
-    jobType: 'Part-time',
+    jobType: 'Part Time',
     experienceRange: {
       min: 2,
       max: 4,

@@ -43,7 +43,7 @@ code {
 /* app */
 .App {
   width: 100%;
-  margin: auto;
+  overflow-x: hidden;
 }
 /* search var */
 .search-bar {
@@ -51,15 +51,17 @@ code {
   padding: 1.1rem;
   position: sticky !important;
   scroll-behavior: auto;
+  border-top: 5px solid lightgray;
+  border-bottom: 5px solid lightgray;
 }
 /* list box */
 .list-box {
   display: flex;
   flex-direction: column;
-  height: 70vh;
   overflow-y: scroll;
   padding: 1.1rem;
   background-color: rgb(238, 238, 238);
+  height: 65vh;
 }
 .list-row {
   display: flex;
@@ -105,4 +107,6 @@ footer {
   width: 100%;
   color: #fff;
   font-size: 14px;
+  position: absolute;
+  bottom: 0;
 }
